@@ -9,8 +9,9 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
   echo "Please enter your root user credentials below."
   sudo rm -rfv /Applications/Native\ Instruments
   sudo rm -fv /Library/Preferences/com.native-instruments.*.plist
-  sudo rm -rfv /Library/Audio/Plug-Ins/Components/Maschine*
-  sudo rm -rfv /Library/Audio/Plug-Ins/VST/Maschine*
+  sudo rm -rfv /Library/Audio/Plug-Ins/Components/*
+  sudo rm -rfv /Library/Audio/Plug-Ins/HAL/*
+  sudo rm -rfv /Library/Audio/Plug-Ins/VST/*
   sudo rm -rfv /Library/Application\ Support/Digidesign/Plug-Ins/Maschine*
   sudo rm -rfv /Library/Application\ Support/Avid/Audio/Plug-Ins/Maschine*
   sudo rm -rfv /Library/Application\ Support/Native\ Instruments
